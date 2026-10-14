@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.73 141.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a4519b;
+        stroke: #a4519b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #6c3078;
+      }
+
+      .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <line class="cls-3" x1="27.38" y1="88.98" x2="116.08" y2="88.98"/>
+  <g>
+    <polyline class="cls-3" points="61.37 33.88 58.85 33.88 56.54 65.4"/>
+    <polyline class="cls-3" points="61.37 33.88 63.9 33.88 66.21 65.4"/>
+    <line class="cls-3" x1="58.35" y1="40.61" x2="64.4" y2="40.61"/>
+    <polyline class="cls-3" points="80.7 33.88 78.17 33.88 75.87 65.4"/>
+    <polyline class="cls-3" points="80.7 33.88 83.23 33.88 85.54 65.4"/>
+    <line class="cls-3" x1="77.68" y1="40.61" x2="83.72" y2="40.61"/>
+    <path class="cls-2" d="m106.76,95.1v-21.42c0-1.42-1.15-2.57-2.57-2.57h-8.38v3.74h7.35s0,20.25,0,20.25"/>
+    <path class="cls-2" d="m36.75,95.1v-21.42c0-1.42,1.15-2.57,2.57-2.57h8.38v3.74h-7.35v20.25"/>
+    <rect class="cls-1" x="47.2" y="66.67" width="49.13" height="22.31"/>
+    <line class="cls-4" x1="66.21" y1="71.98" x2="66.21" y2="82.64"/>
+    <line class="cls-4" x1="56.54" y1="71.98" x2="56.54" y2="82.64"/>
+    <line class="cls-4" x1="75.87" y1="71.98" x2="75.87" y2="82.64"/>
+    <line class="cls-4" x1="86.09" y1="71.98" x2="86.09" y2="82.64"/>
+  </g>
+  <g>
+    <g>
+      <line class="cls-3" x1="55.57" y1="101.65" x2="55.57" y2="111.49"/>
+      <polyline class="cls-3" points="51.27 103.94 55.5 100.18 59.42 103.86"/>
+    </g>
+    <g>
+      <line class="cls-3" x1="71.95" y1="101.65" x2="71.95" y2="111.49"/>
+      <polyline class="cls-3" points="67.66 103.94 71.88 100.18 75.8 103.86"/>
+    </g>
+    <g>
+      <line class="cls-3" x1="88.34" y1="101.65" x2="88.34" y2="111.49"/>
+      <polyline class="cls-3" points="84.04 103.94 88.26 100.18 92.19 103.86"/>
+    </g>
+  </g>
+</svg>

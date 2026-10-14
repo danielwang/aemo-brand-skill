@@ -1,0 +1,110 @@
+/*
+ * AEMO GEL colour tokens — CSS custom properties
+ *
+ * Generated from tokens/colors.json. Do not edit values here without also
+ * updating colors.json so the two files stay in agreement.
+ *
+ * Sources:
+ *   https://gel.aemo.com.au/docs/guides/design-tokens/color (official tokens, SCSS/CSS variable names)
+ *   https://gel.aemo.com.au/docs/branding/colours/colour-palette (named brand palette, no official token name)
+ * Access date: 2026-10-15. Source last updated: 2026-10-09.
+ *
+ * KNOWN CONFLICT (not silently resolved — see design.md "Colour" section):
+ *   --gel-brand-purple-primary (#6B3077, branding page) is close to but NOT identical to
+ *   --gel-color-primary-purple-500 (#6c3078, design-tokens page). The official AEMO logo
+ *   PNG assets use #6B3077 exactly. Prefer --gel-color-primary-purple-500 for new UI
+ *   implementation per design-token guidance; use --gel-brand-purple-primary only when
+ *   exact parity with the logo/brand-palette swatch is required.
+ *
+ * --gel-brand-* custom properties are PACKAGE-LOCAL ALIASES for the named brand colours.
+ * They are not official GEL token names (no SCSS variable is published for them).
+ */
+
+:root {
+
+  /* Primary (official design token) */
+  --gel-color-primary-purple-800: #281631; /* Purple 800 — $gel-color-primary-purple-800 */
+  --gel-color-primary-purple-700: #3c1053; /* Purple 700 — $gel-color-primary-purple-700 */
+  --gel-color-primary-purple-600: #502252; /* Purple 600 — $gel-color-primary-purple-600 */
+  --gel-color-primary-purple-500: #6c3078; /* Purple 500 — $gel-color-primary-purple-500 */
+  --gel-color-primary-purple-400: #b056bc; /* Purple 400 — $gel-color-primary-purple-400 */
+  --gel-color-primary-purple-300: #cc8acf; /* Purple 300 — $gel-color-primary-purple-300 */
+  --gel-color-primary-purple-200: #e8cbea; /* Purple 200 — $gel-color-primary-purple-200 */
+  --gel-color-primary-purple-100: #ede9ed; /* Purple 100 — $gel-color-primary-purple-100 */
+
+  /* Secondary (official design token) */
+  --gel-color-secondary-blue-500: #5666bc; /* Blue 500 — $gel-color-secondary-blue-500 */
+  --gel-color-secondary-blue-300: #7384d2; /* Blue 300 — $gel-color-secondary-blue-300 */
+  --gel-color-secondary-blue-200: #a0abd9; /* Blue 200 — $gel-color-secondary-blue-200 */
+  --gel-color-secondary-blue-100: #f4fbfc; /* Blue 100 — $gel-color-secondary-blue-100 */
+  --gel-color-secondary-green-500: #467822; /* Green 500 — $gel-color-secondary-green-500 */
+  --gel-color-secondary-green-300: #5d9f2d; /* Green 300 — $gel-color-secondary-green-300 */
+  --gel-color-secondary-green-200: #93be74; /* Green 200 — $gel-color-secondary-green-200 */
+  --gel-color-secondary-green-100: #ecf7e3; /* Green 100 — $gel-color-secondary-green-100 */
+  --gel-color-secondary-orange-500: #d97008; /* Orange 500 — $gel-color-secondary-orange-500 */
+  --gel-color-secondary-orange-300: #f9b067; /* Orange 300 — $gel-color-secondary-orange-300 */
+  --gel-color-secondary-orange-200: #fee2bf; /* Orange 200 — $gel-color-secondary-orange-200 */
+  --gel-color-secondary-orange-100: #fff4ec; /* Orange 100 — $gel-color-secondary-orange-100 */
+  --gel-color-secondary-red-500: #d4254e; /* Red 500 — $gel-color-secondary-red-500 */
+  --gel-color-secondary-red-300: #dd4e70; /* Red 300 — $gel-color-secondary-red-300 */
+  --gel-color-secondary-red-200: #e77892; /* Red 200 — $gel-color-secondary-red-200 */
+  --gel-color-secondary-red-100: #feefef; /* Red 100 — $gel-color-secondary-red-100 */
+  --gel-color-tertiary-denim-500: #3379bf; /* Denim - 500 — $gel-color-tertiary-denim-500 */
+  --gel-color-tertiary-denim-300: #5493d1; /* Denim - 300 — $gel-color-tertiary-denim-300 */
+  --gel-color-secondary-teal: #34b9b3; /* Teal — $gel-color-secondary-teal */
+  --gel-color-secondary-yellow: #ffd565; /* Yellow — $gel-color-secondary-yellow */
+  --gel-color-secondary-aqua: #85cee2; /* Aqua — $gel-color-secondary-aqua */
+  --gel-color-secondary-violet-900: #282b3e; /* Violet - 900 — $gel-color-secondary-violet-900 */
+  --gel-color-secondary-violet-500: #777da7; /* Violet - 500 — $gel-color-secondary-violet-500 */
+
+  /* Tertiary (official design token) */
+  --gel-color-tertiary-black: #000000; /* Black — $gel-color-tertiary-black */
+  --gel-color-tertiary-white: #ffffff; /* White — $gel-color-tertiary-white */
+  --gel-color-tertiary-slate-1100: #121417; /* Slate 1100 — $gel-color-tertiary-slate-1100 */
+  --gel-color-tertiary-slate-1000: #1d2026; /* Slate 1000 — $gel-color-tertiary-slate-1000 */
+  --gel-color-tertiary-slate-900: #282c34; /* Slate 900 — $gel-color-tertiary-slate-900 */
+  --gel-color-tertiary-slate-800: #333842; /* Slate 800 — $gel-color-tertiary-slate-800 */
+  --gel-color-tertiary-slate-700: #434b58; /* Slate 700 — $gel-color-tertiary-slate-700 */
+  --gel-color-tertiary-slate-600: #545d6e; /* Slate 600 — $gel-color-tertiary-slate-600 */
+  --gel-color-tertiary-slate-500: #6b778c; /* Slate 500 — $gel-color-tertiary-slate-500 */
+  --gel-color-tertiary-slate-400: #9ea6b5; /* Slate 400 — $gel-color-tertiary-slate-400 */
+  --gel-color-tertiary-slate-300: #d2d6dd; /* Slate 300 — $gel-color-tertiary-slate-300 */
+  --gel-color-tertiary-slate-200: #dcdfe4; /* Slate 200 — $gel-color-tertiary-slate-200 */
+  --gel-color-tertiary-slate-100: #f1f2f3; /* Slate 100 — $gel-color-tertiary-slate-100 */
+  --gel-color-tertiary-slate-50: #fafafa; /* Slate 50 — $gel-color-tertiary-slate-50 */
+
+  /* Fuel (official design token) */
+  --gel-color-fuel-coal: #333536; /* Coal — $gel-color-fuel-coal */
+  --gel-color-fuel-brown-coal: #97785c; /* Brown Coal — $gel-color-fuel-brown-coal */
+  --gel-color-fuel-distilate: #fe5f55; /* Distilate — $gel-color-fuel-distilate */
+  --gel-color-fuel-biomass: #a82140; /* Biomass — $gel-color-fuel-biomass */
+  --gel-color-fuel-solar: #ffd565; /* Solar — $gel-color-fuel-solar */
+  --gel-color-fuel-wind: #a1d978; /* Wind — $gel-color-fuel-wind */
+  --gel-color-fuel-hydro: #ade0ee; /* Hydro — $gel-color-fuel-hydro */
+  --gel-color-fuel-renewables: #e1ee8e; /* Renewables — $gel-color-fuel-renewables */
+  --gel-color-fuel-demandSide: #5666bc; /* DemandSide — $gel-color-fuel-demandSide */
+  --gel-color-fuel-landfill-gas: #5cdcd6; /* Landfill Gas — $gel-color-fuel-landfill-gas */
+  --gel-color-fuel-sat-pv-or-solar-thermal: #ffb546; /* SatPvOrSolarThermal — $gel-color-fuel-sat-pv-or-solar-thermal */
+  --gel-color-fuel-battery: #b056bc; /* Battery — $gel-color-fuel-battery */
+  --gel-color-fuel-battery-load: #d77ee2; /* Battery Load — $gel-color-fuel-battery-load */
+  --gel-color-fuel-vpp-battery-load: #e2a8ea; /* Vpp Battery Load — $gel-color-fuel-vpp-battery-load */
+  --gel-color-fuel-main: #333536; /* Main — $gel-color-fuel-main */
+  --gel-color-fuel-load: #d4dadd; /* Load — $gel-color-fuel-load */
+
+  /* Brand palette — Hero colours (package-local alias, see note above) */
+  --gel-brand-purple-primary: #6B3077; /* Purple Primary — Core primary colour - first choice for design */
+  --gel-brand-dark-purple: #3C1053; /* Dark Purple — Foundation block behind other colour elements */
+  --gel-brand-purple-pop: #B056BC; /* Purple Pop — Highlight in small doses to draw attention */
+
+  /* Brand palette — Secondary colours (package-local alias, see note above) */
+  --gel-brand-rose-red: #A82140; /* Rose Red — Secondary palette accent */
+  --gel-brand-blue-violet: #777DA7; /* Blue Violet — Secondary palette accent */
+  --gel-brand-blue-sky: #ADE0EE; /* Blue Sky — Secondary palette accent */
+  --gel-brand-blue-grey: #F3F7F9; /* Blue Grey — Secondary palette neutral */
+
+  /* Brand palette — Extension colours (package-local alias, see note above) */
+  --gel-brand-teal-pop: #34B9B3; /* Teal Pop — Pop of colour flourish */
+  --gel-brand-orange-pop: #FE5F55; /* Orange Pop — Pop of colour flourish */
+  --gel-brand-yellow-pop: #FFD565; /* Yellow Pop — Pop of colour flourish */
+  --gel-brand-green-pop: #A1D978; /* Green Pop — Pop of colour flourish */
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.73 141.73">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #a4519b;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #a4519b;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-3 {
+        stroke: #6c3078;
+      }
+    </style>
+  </defs>
+  <path class="cls-3" d="m59.01,43.78v-4.91c0-2.59,2.12-4.7,4.7-4.7h9.07c2.59,0,4.7,2.12,4.7,4.7v4.91"/>
+  <path class="cls-3" d="m88.18,46.76c3.35,2.18,6.33,4.9,8.8,8.03"/>
+  <line class="cls-3" x1="68.25" y1="40.69" x2="68.25" y2="48.52"/>
+  <path class="cls-3" d="m68.25,57.09c11.28,0,20.44,9.15,20.44,20.44s-9.15,20.44-20.44,20.44-20.44-9.15-20.44-20.44"/>
+  <path class="cls-3" d="m97.48,77.53c0,16.14-13.09,29.23-29.23,29.23s-29.23-13.09-29.23-29.23,13.09-29.23,29.23-29.23,29.23,13.09,29.23,29.23Z"/>
+  <path class="cls-2" d="m73.64,77.52c0,2.98-2.41,5.39-5.39,5.39s-5.39-2.42-5.39-5.39,2.41-5.39,5.39-5.39,5.39,2.41,5.39,5.39Z"/>
+  <line class="cls-1" x1="73.35" y1="79.46" x2="79.58" y2="81.78"/>
+  <line class="cls-1" x1="47.87" y1="69.97" x2="63.13" y2="75.65"/>
+</svg>

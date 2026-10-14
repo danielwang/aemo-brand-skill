@@ -1,0 +1,112 @@
+{
+  "$meta": {
+    "description": "AEMO GEL colour values. 'designTokens' are the official token table from the design-tokens documentation (includes SCSS variable names). 'brandPalette' are the named brand colours from the branding colour-palette page (no official SCSS/token name is published for these; cssVariable values below are package-local aliases, not official tokens — see design.md 'Token naming and aliases').",
+    "sources": [
+      "https://gel.aemo.com.au/docs/guides/design-tokens/color",
+      "https://gel.aemo.com.au/docs/branding/colours/colour-palette"
+    ],
+    "accessDate": "2026-10-15",
+    "sourceLastUpdated": "2026-10-09",
+    "knownConflicts": [
+      {
+        "description": "Branding page 'Purple Primary' (hero colour) is #6B3077. Design-tokens page '$gel-color-primary-purple-500' is #6c3078. These are visually near-identical but not byte-identical hex values. The AEMO logo PNG assets (assets/logos/) use #6B3077 exactly. This conflict is not silently resolved — see design.md Colour section.",
+        "valueA": { "source": "branding/colours/colour-palette", "name": "Purple Primary", "hex": "#6B3077" },
+        "valueB": { "source": "guides/design-tokens/color", "name": "Purple 500", "scssVariable": "$gel-color-primary-purple-500", "hex": "#6c3078" }
+      },
+      {
+        "description": "Branding page 'Blue Grey' (#F3F7F9, 'Secondary palette neutral') has no exact match in the published design-tokens table. Closest documented tokens are Blue 100 (#f4fbfc) and Slate 50 (#fafafa), neither of which is identical. Treat 'Blue Grey' as a brand-palette-only value with no confirmed token mapping.",
+        "unmatchedValue": { "source": "branding/colours/colour-palette", "name": "Blue Grey", "hex": "#F3F7F9" }
+      }
+    ]
+  },
+  "designTokens": {
+    "primary": {
+      "purple-800": { "name": "Purple 800", "value": "#281631", "scssVariable": "$gel-color-primary-purple-800", "cssVariable": "--gel-color-primary-purple-800" },
+      "purple-700": { "name": "Purple 700", "value": "#3c1053", "scssVariable": "$gel-color-primary-purple-700", "cssVariable": "--gel-color-primary-purple-700" },
+      "purple-600": { "name": "Purple 600", "value": "#502252", "scssVariable": "$gel-color-primary-purple-600", "cssVariable": "--gel-color-primary-purple-600" },
+      "purple-500": { "name": "Purple 500", "value": "#6c3078", "scssVariable": "$gel-color-primary-purple-500", "cssVariable": "--gel-color-primary-purple-500" },
+      "purple-400": { "name": "Purple 400", "value": "#b056bc", "scssVariable": "$gel-color-primary-purple-400", "cssVariable": "--gel-color-primary-purple-400" },
+      "purple-300": { "name": "Purple 300", "value": "#cc8acf", "scssVariable": "$gel-color-primary-purple-300", "cssVariable": "--gel-color-primary-purple-300" },
+      "purple-200": { "name": "Purple 200", "value": "#e8cbea", "scssVariable": "$gel-color-primary-purple-200", "cssVariable": "--gel-color-primary-purple-200" },
+      "purple-100": { "name": "Purple 100", "value": "#ede9ed", "scssVariable": "$gel-color-primary-purple-100", "cssVariable": "--gel-color-primary-purple-100" }
+    },
+    "secondary": {
+      "blue-500": { "name": "Blue 500", "value": "#5666bc", "scssVariable": "$gel-color-secondary-blue-500", "cssVariable": "--gel-color-secondary-blue-500" },
+      "blue-300": { "name": "Blue 300", "value": "#7384d2", "scssVariable": "$gel-color-secondary-blue-300", "cssVariable": "--gel-color-secondary-blue-300" },
+      "blue-200": { "name": "Blue 200", "value": "#a0abd9", "scssVariable": "$gel-color-secondary-blue-200", "cssVariable": "--gel-color-secondary-blue-200" },
+      "blue-100": { "name": "Blue 100", "value": "#f4fbfc", "scssVariable": "$gel-color-secondary-blue-100", "cssVariable": "--gel-color-secondary-blue-100" },
+      "green-500": { "name": "Green 500", "value": "#467822", "scssVariable": "$gel-color-secondary-green-500", "cssVariable": "--gel-color-secondary-green-500" },
+      "green-300": { "name": "Green 300", "value": "#5d9f2d", "scssVariable": "$gel-color-secondary-green-300", "cssVariable": "--gel-color-secondary-green-300" },
+      "green-200": { "name": "Green 200", "value": "#93be74", "scssVariable": "$gel-color-secondary-green-200", "cssVariable": "--gel-color-secondary-green-200" },
+      "green-100": { "name": "Green 100", "value": "#ecf7e3", "scssVariable": "$gel-color-secondary-green-100", "cssVariable": "--gel-color-secondary-green-100" },
+      "orange-500": { "name": "Orange 500", "value": "#d97008", "scssVariable": "$gel-color-secondary-orange-500", "cssVariable": "--gel-color-secondary-orange-500" },
+      "orange-300": { "name": "Orange 300", "value": "#f9b067", "scssVariable": "$gel-color-secondary-orange-300", "cssVariable": "--gel-color-secondary-orange-300" },
+      "orange-200": { "name": "Orange 200", "value": "#fee2bf", "scssVariable": "$gel-color-secondary-orange-200", "cssVariable": "--gel-color-secondary-orange-200" },
+      "orange-100": { "name": "Orange 100", "value": "#fff4ec", "scssVariable": "$gel-color-secondary-orange-100", "cssVariable": "--gel-color-secondary-orange-100" },
+      "red-500": { "name": "Red 500", "value": "#d4254e", "scssVariable": "$gel-color-secondary-red-500", "cssVariable": "--gel-color-secondary-red-500" },
+      "red-300": { "name": "Red 300", "value": "#dd4e70", "scssVariable": "$gel-color-secondary-red-300", "cssVariable": "--gel-color-secondary-red-300" },
+      "red-200": { "name": "Red 200", "value": "#e77892", "scssVariable": "$gel-color-secondary-red-200", "cssVariable": "--gel-color-secondary-red-200" },
+      "red-100": { "name": "Red 100", "value": "#feefef", "scssVariable": "$gel-color-secondary-red-100", "cssVariable": "--gel-color-secondary-red-100" },
+      "denim-500": { "name": "Denim - 500", "value": "#3379bf", "scssVariable": "$gel-color-tertiary-denim-500", "cssVariable": "--gel-color-tertiary-denim-500" },
+      "denim-300": { "name": "Denim - 300", "value": "#5493d1", "scssVariable": "$gel-color-tertiary-denim-300", "cssVariable": "--gel-color-tertiary-denim-300" },
+      "teal": { "name": "Teal", "value": "#34b9b3", "scssVariable": "$gel-color-secondary-teal", "cssVariable": "--gel-color-secondary-teal" },
+      "yellow": { "name": "Yellow", "value": "#ffd565", "scssVariable": "$gel-color-secondary-yellow", "cssVariable": "--gel-color-secondary-yellow" },
+      "aqua": { "name": "Aqua", "value": "#85cee2", "scssVariable": "$gel-color-secondary-aqua", "cssVariable": "--gel-color-secondary-aqua" },
+      "violet-900": { "name": "Violet - 900", "value": "#282b3e", "scssVariable": "$gel-color-secondary-violet-900", "cssVariable": "--gel-color-secondary-violet-900" },
+      "violet-500": { "name": "Violet - 500", "value": "#777da7", "scssVariable": "$gel-color-secondary-violet-500", "cssVariable": "--gel-color-secondary-violet-500" }
+    },
+    "tertiary": {
+      "black": { "name": "Black", "value": "#000000", "scssVariable": "$gel-color-tertiary-black", "cssVariable": "--gel-color-tertiary-black" },
+      "white": { "name": "White", "value": "#ffffff", "scssVariable": "$gel-color-tertiary-white", "cssVariable": "--gel-color-tertiary-white" },
+      "slate-1100": { "name": "Slate 1100", "value": "#121417", "scssVariable": "$gel-color-tertiary-slate-1100", "cssVariable": "--gel-color-tertiary-slate-1100" },
+      "slate-1000": { "name": "Slate 1000", "value": "#1d2026", "scssVariable": "$gel-color-tertiary-slate-1000", "cssVariable": "--gel-color-tertiary-slate-1000" },
+      "slate-900": { "name": "Slate 900", "value": "#282c34", "scssVariable": "$gel-color-tertiary-slate-900", "cssVariable": "--gel-color-tertiary-slate-900" },
+      "slate-800": { "name": "Slate 800", "value": "#333842", "scssVariable": "$gel-color-tertiary-slate-800", "cssVariable": "--gel-color-tertiary-slate-800" },
+      "slate-700": { "name": "Slate 700", "value": "#434b58", "scssVariable": "$gel-color-tertiary-slate-700", "cssVariable": "--gel-color-tertiary-slate-700" },
+      "slate-600": { "name": "Slate 600", "value": "#545d6e", "scssVariable": "$gel-color-tertiary-slate-600", "cssVariable": "--gel-color-tertiary-slate-600" },
+      "slate-500": { "name": "Slate 500", "value": "#6b778c", "scssVariable": "$gel-color-tertiary-slate-500", "cssVariable": "--gel-color-tertiary-slate-500" },
+      "slate-400": { "name": "Slate 400", "value": "#9ea6b5", "scssVariable": "$gel-color-tertiary-slate-400", "cssVariable": "--gel-color-tertiary-slate-400" },
+      "slate-300": { "name": "Slate 300", "value": "#d2d6dd", "scssVariable": "$gel-color-tertiary-slate-300", "cssVariable": "--gel-color-tertiary-slate-300" },
+      "slate-200": { "name": "Slate 200", "value": "#dcdfe4", "scssVariable": "$gel-color-tertiary-slate-200", "cssVariable": "--gel-color-tertiary-slate-200" },
+      "slate-100": { "name": "Slate 100", "value": "#f1f2f3", "scssVariable": "$gel-color-tertiary-slate-100", "cssVariable": "--gel-color-tertiary-slate-100" },
+      "slate-50": { "name": "Slate 50", "value": "#fafafa", "scssVariable": "$gel-color-tertiary-slate-50", "cssVariable": "--gel-color-tertiary-slate-50" }
+    },
+    "fuel": {
+      "coal": { "name": "Coal", "value": "#333536", "scssVariable": "$gel-color-fuel-coal", "cssVariable": "--gel-color-fuel-coal" },
+      "brown-coal": { "name": "Brown Coal", "value": "#97785c", "scssVariable": "$gel-color-fuel-brown-coal", "cssVariable": "--gel-color-fuel-brown-coal" },
+      "distilate": { "name": "Distilate", "value": "#fe5f55", "scssVariable": "$gel-color-fuel-distilate", "cssVariable": "--gel-color-fuel-distilate" },
+      "biomass": { "name": "Biomass", "value": "#a82140", "scssVariable": "$gel-color-fuel-biomass", "cssVariable": "--gel-color-fuel-biomass" },
+      "solar": { "name": "Solar", "value": "#ffd565", "scssVariable": "$gel-color-fuel-solar", "cssVariable": "--gel-color-fuel-solar" },
+      "wind": { "name": "Wind", "value": "#a1d978", "scssVariable": "$gel-color-fuel-wind", "cssVariable": "--gel-color-fuel-wind" },
+      "hydro": { "name": "Hydro", "value": "#ade0ee", "scssVariable": "$gel-color-fuel-hydro", "cssVariable": "--gel-color-fuel-hydro" },
+      "renewables": { "name": "Renewables", "value": "#e1ee8e", "scssVariable": "$gel-color-fuel-renewables", "cssVariable": "--gel-color-fuel-renewables" },
+      "demandSide": { "name": "DemandSide", "value": "#5666bc", "scssVariable": "$gel-color-fuel-demandSide", "cssVariable": "--gel-color-fuel-demandSide" },
+      "landfill-gas": { "name": "Landfill Gas", "value": "#5cdcd6", "scssVariable": "$gel-color-fuel-landfill-gas", "cssVariable": "--gel-color-fuel-landfill-gas" },
+      "sat-pv-or-solar-thermal": { "name": "SatPvOrSolarThermal", "value": "#ffb546", "scssVariable": "$gel-color-fuel-sat-pv-or-solar-thermal", "cssVariable": "--gel-color-fuel-sat-pv-or-solar-thermal" },
+      "battery": { "name": "Battery", "value": "#b056bc", "scssVariable": "$gel-color-fuel-battery", "cssVariable": "--gel-color-fuel-battery" },
+      "battery-load": { "name": "Battery Load", "value": "#d77ee2", "scssVariable": "$gel-color-fuel-battery-load", "cssVariable": "--gel-color-fuel-battery-load" },
+      "vpp-battery-load": { "name": "Vpp Battery Load", "value": "#e2a8ea", "scssVariable": "$gel-color-fuel-vpp-battery-load", "cssVariable": "--gel-color-fuel-vpp-battery-load" },
+      "main": { "name": "Main", "value": "#333536", "scssVariable": "$gel-color-fuel-main", "cssVariable": "--gel-color-fuel-main" },
+      "load": { "name": "Load", "value": "#d4dadd", "scssVariable": "$gel-color-fuel-load", "cssVariable": "--gel-color-fuel-load" }
+    }
+  },
+  "brandPalette": {
+    "hero": {
+      "purple-primary": { "name": "Purple Primary", "value": "#6B3077", "description": "Core primary colour - first choice for design", "cssVariable": "--gel-brand-purple-primary" },
+      "dark-purple": { "name": "Dark Purple", "value": "#3C1053", "description": "Foundation block behind other colour elements", "cssVariable": "--gel-brand-dark-purple" },
+      "purple-pop": { "name": "Purple Pop", "value": "#B056BC", "description": "Highlight in small doses to draw attention", "cssVariable": "--gel-brand-purple-pop" }
+    },
+    "secondary": {
+      "rose-red": { "name": "Rose Red", "value": "#A82140", "description": "Secondary palette accent", "cssVariable": "--gel-brand-rose-red" },
+      "blue-violet": { "name": "Blue Violet", "value": "#777DA7", "description": "Secondary palette accent", "cssVariable": "--gel-brand-blue-violet" },
+      "blue-sky": { "name": "Blue Sky", "value": "#ADE0EE", "description": "Secondary palette accent", "cssVariable": "--gel-brand-blue-sky" },
+      "blue-grey": { "name": "Blue Grey", "value": "#F3F7F9", "description": "Secondary palette neutral", "cssVariable": "--gel-brand-blue-grey" }
+    },
+    "extension": {
+      "teal-pop": { "name": "Teal Pop", "value": "#34B9B3", "description": "Pop of colour flourish", "cssVariable": "--gel-brand-teal-pop" },
+      "orange-pop": { "name": "Orange Pop", "value": "#FE5F55", "description": "Pop of colour flourish", "cssVariable": "--gel-brand-orange-pop" },
+      "yellow-pop": { "name": "Yellow Pop", "value": "#FFD565", "description": "Pop of colour flourish", "cssVariable": "--gel-brand-yellow-pop" },
+      "green-pop": { "name": "Green Pop", "value": "#A1D978", "description": "Pop of colour flourish", "cssVariable": "--gel-brand-green-pop" }
+    }
+  }
+}

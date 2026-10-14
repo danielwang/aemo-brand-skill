@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.73 141.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a4519b;
+        stroke: #a4519b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #6c3078;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-2" points="73.2 69.27 73.2 49.91 84.26 49.91"/>
+  <g>
+    <polyline class="cls-2" points="45.89 94.01 64.11 94.01 64.11 80.12"/>
+    <polyline class="cls-2" points="92.9 94.01 74.93 94.01 74.93 82.95"/>
+    <path class="cls-2" d="m83.22,82.95h9.32c7.07,0,12.8-5.83,12.8-13.01,0-5.4-3.24-10.04-7.86-12,.1-.75.17-1.52.17-2.31,0-9.34-7.45-16.91-16.64-16.91-7.41,0-13.67,4.94-15.82,11.75-1.97-1.31-4.33-2.07-6.87-2.07-6.87,0-12.44,5.57-12.44,12.44,0,.03,0,.06,0,.09-5.46.68-9.68,5.33-9.68,10.97,0,6.11,4.95,11.06,11.06,11.06h8.3"/>
+    <polyline class="cls-2" points="58.33 60.83 66.63 60.83 66.63 66.36"/>
+    <polyline class="cls-2" points="77.69 71.89 91.52 71.89 91.52 66.36"/>
+    <line class="cls-2" x1="61.1" y1="74.65" x2="50.04" y2="74.65"/>
+    <line class="cls-2" x1="94.28" y1="77.42" x2="77.69" y2="77.42"/>
+    <polyline class="cls-2" points="69.4 82.95 69.4 105.07 59.72 105.07"/>
+    <line class="cls-2" x1="80.46" y1="105.07" x2="69.4" y2="105.07"/>
+    <rect class="cls-1" x="61.1" y="66.36" width="16.59" height="16.59" rx="1" ry="1"/>
+    <circle class="cls-1" cx="56.95" cy="105.07" r="2.77"/>
+    <circle class="cls-1" cx="45.89" cy="94.01" r="2.77"/>
+    <circle class="cls-1" cx="47.27" cy="74.65" r="2.77"/>
+    <circle class="cls-1" cx="91.52" cy="63.59" r="2.77"/>
+    <circle class="cls-1" cx="95.67" cy="94.01" r="2.77"/>
+    <circle class="cls-1" cx="85.99" cy="49.77" r="2.77"/>
+    <circle class="cls-1" cx="55.57" cy="60.83" r="2.77"/>
+    <circle class="cls-1" cx="83.22" cy="105.07" r="2.77"/>
+  </g>
+</svg>

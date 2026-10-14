@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 141.73 141.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a4519b;
+        stroke: #a4519b;
+        stroke-width: .75px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #6c3078;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <g id="g1088">
+    <path id="path1070" class="cls-2" d="m81.58,51.27v-6.04s-9.06,0-9.06,0v6.04"/>
+    <path id="rect1054" class="cls-1" d="m104.23,51.27h-36.25c-6.69,0-12.08,5.39-12.08,12.08,0,6.69,5.39,12.08,12.08,12.08h36.25c6.69,0,12.08-5.39,12.08-12.08,0-6.69-5.39-12.08-12.08-12.08Z"/>
+    <path id="path1036" class="cls-2" d="m33.25,93.55c0,3.34,2.7,6.04,6.04,6.04s6.04-2.7,6.04-6.04c0-3.34-2.7-6.04-6.04-6.04-3.34,0-6.04,2.7-6.04,6.04Z"/>
+    <path id="path1039" class="cls-2" d="m33.25,93.55h-10.57v-15.1s12.08-16.61,12.08-16.61h15.1v24.16"/>
+    <path id="path1041" class="cls-2" d="m43.82,67.88v12.08h-13.59"/>
+    <path id="path1043" class="cls-2" d="m108.77,93.55h7.55s0-12.08,0-12.08H49.86"/>
+    <path id="path1045" class="cls-2" d="m96.68,93.55c0,3.34,2.7,6.04,6.04,6.04s6.04-2.7,6.04-6.04c0-3.34-2.7-6.04-6.04-6.04-3.34,0-6.04,2.7-6.04,6.04Z"/>
+    <path id="path1048" class="cls-2" d="m78.56,93.55c0,3.34,2.7,6.04,6.04,6.04s6.04-2.7,6.04-6.04-2.7-6.04-6.04-6.04c-3.34,0-6.04,2.7-6.04,6.04Z"/>
+    <path id="path1050" class="cls-2" d="m96.68,93.55h-6.04"/>
+    <path id="path1052" class="cls-2" d="m78.56,93.55h-33.23"/>
+    <path id="path1057" class="cls-2" d="m101.21,69.39v-19.63"/>
+    <path id="path1059" class="cls-2" d="m92.15,69.39v-19.63"/>
+    <path id="path1061" class="cls-2" d="m105.74,45.22c-2.5,0-4.53,2.03-4.53,4.53"/>
+    <path id="path1064" class="cls-2" d="m96.68,45.22c-2.5,0-4.53,2.03-4.53,4.53"/>
+    <path id="path1066" class="cls-2" d="m101.21,58.82h-9.06"/>
+    <path id="path1068" class="cls-2" d="m101.21,66.37h-9.06"/>
+  </g>
+</svg>
